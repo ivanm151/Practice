@@ -9,4 +9,3 @@ def check(string):
 name = input("Введите имя: ")
 name = check(name)
 print(len(name))
-# check
