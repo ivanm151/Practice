@@ -17,4 +17,4 @@ def check_age(string):
 name, age = "", ""
 name = check_name(name)
 age = check_age(age)
-print("Привет,", name+"! Тебе уже", age, "лет.")
+print("Привет,", name + "! Тебе уже", age, "лет.")
