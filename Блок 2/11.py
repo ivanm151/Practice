@@ -8,4 +8,4 @@ def check(string):
 
 a, b = input(""), input("")
 a, b = check(a), check(b)
-print(round((a+b)*(b-a+1)/2))
+print(round((a + b) * (b - a + 1) / 2))
