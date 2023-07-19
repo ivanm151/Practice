@@ -7,4 +7,3 @@ progs.insert(num, prog)
 print("Новый список:")
 for i in progs:
     print(i)
-    
