@@ -11,4 +11,5 @@ while len(a) != len(set(a)):
     a = input("Введите число, все цифры которого различны:\n")
     a = check(a)
 m = list(a)
-print("Порядковый номер максимальной цифры с начала списка:", m.index(max(m)) + 1, "С конца:", len(m) - m.index(max(m)))
+text1 = "Порядковый номер максимальной цифры с начала списка:"
+print(text1, m.index(max(m)) + 1, "С конца:", len(m) - m.index(max(m)))
