@@ -7,5 +7,8 @@ with open("books.csv", mode="w", encoding='utf-8') as books:
         if counter == 0:
             file_writer.writeheader()
         print("Книга №", counter + 1)
-        file_writer.writerow({"Name": input("Название: "), "Author": input("Автор: "), "Year": input("Год выпуска: ")})
+        a = "Название: "
+        b = "Автор: "
+        c = "Год выпуска: "
+        file_writer.writerow({"Name": input(a), "Author": input(b), "Year": input(c)})
         counter += 1
