@@ -1,8 +1,8 @@
 import csv
 counter = 0
-with open("books.csv", mode="w", encoding='utf-8') as books:
-    book = ["Name", "Author", "Year"]
-    file_writer = csv.DictWriter(books, delimiter=",", lineterminator="\r", fieldnames=book)
+with open("books.csv", mode="w", encoding='utf-8') as bs:
+    o = ["Name", "Author", "Year"]
+    f = csv.DictWriter(bs, delimiter=",", lineterminator="\r", fieldnames=o)
     while counter < 5:
         if counter == 0:
             file_writer.writeheader()
@@ -10,5 +10,5 @@ with open("books.csv", mode="w", encoding='utf-8') as books:
         a = "Название: "
         b = "Автор: "
         c = "Год выпуска: "
-        file_writer.writerow({"Name": input(a), "Author": input(b), "Year": input(c)})
+        f.writerow({"Name": input(a), "Author": input(b), "Year": input(c)})
         counter += 1
