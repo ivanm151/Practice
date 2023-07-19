@@ -8,4 +8,4 @@ def check(string):
 
 a, b, = "", ""
 a, b = check(a), check(b)
-print("Произведение чисел", a, "и", b, "равно", a*b)
+print("Произведение чисел", a, "и", b, "равно", a * b)
