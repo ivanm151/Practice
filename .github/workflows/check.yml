@@ -21,4 +21,4 @@ jobs:
       run: pip install pycodestyle
     # check .py files
     - name: pycodestyle check
-      run: pycodestyle --max-doc-length=120 --ignore E731, E501 ./
+      run: pycodestyle --max-doc-length=120 --ignore E731,E501 ./
