@@ -1,0 +1,4 @@
+logging
+scrapy
+requests
+beautifulsoup4
