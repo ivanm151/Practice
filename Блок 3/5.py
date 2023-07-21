@@ -6,5 +6,5 @@ def simple(number):
 
 
 n = int(input("До какого числа проверять: "))
-a = [i for i in range(n+1) if not simple(i)]
+a = [i for i in range(n + 1) if not simple(i)]
 print(a)
